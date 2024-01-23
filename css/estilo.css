@@ -1,0 +1,76 @@
+/*cabeçalho*/
+.navbar-brand img{
+    max-height: 5rem;
+}
+
+/*Conteudo principal*/
+
+main{
+    min-height:90vh;
+}
+/*banner*/
+.section-banners img{
+    height: 90vh;
+}
+/*Produtos vendidos*/
+#section-vendidos{
+    text-align: center;
+}
+#section-vendidos h2{
+    font-weight: bold;
+    padding:1rem;
+}
+#section-vendidos img{
+    height: 60vh;
+    border-radius: 1rem;
+}
+#section-vendidos .card{
+    margin:.5rem;
+    border-radius:.5rem;
+}
+#section-vendidos .card-preco{
+    color:red;
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+footer p{
+    font-weight: bold;
+    padding: .5rem;
+}
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom:1rem;
+    right: 2rem;
+}
+/* página de login  */
+#section-login{
+    margin-top:5rem;
+}
+#section-login h1{
+    text-align: center;
+}
+#section-login input{
+    width:100%;
+}
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    margin-top:.5rem;
+    text-align: center;
+    background-color: #fff;
+}
+#section-cadastro h1{
+    text-align: center;
+}
+#section-cadastro input{
+    width:100%;
+}
+#form-cadastrar{
+    display: none;
+}
